@@ -1,131 +1,74 @@
 body {
-    background-image: url("images/sys.jpg");
+    background-image: url("images/space-3.webp");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+html {
+    max-width: 1920px;
+    max-height: 1000px;
+}
+
+.arrow {    
+    width: 40px;
+}
+
+.hero-sec {
+    background-image: url("images/space-2.jpg");
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    position: relative;
+    opacity: 0.89;
 }
 
 .head-1 {
-    background-image: linear-gradient(to left, blue, white);
+    text-align: center;
+    font-size: 62px;
+    background: linear-gradient(to left, blue,lightblue);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    text-decoration: underline;
-}
-
-.sun {
-    width: 190px;
-    position: relative;
-    top: 240px;
-    left: 855px;
+    padding-top: 120px;
+    padding-bottom: 170px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .mars {
-    width: 130px;
-    position: relative;
-    border-top-left-radius: 20px;
-    left: 45px;
-    top: 50px;
-    animation: revolve;
+    width: 180px;
 }
 
-.img-mars {
-    width: 400px;
-    position: relative;
-    top: 50px;
-    left: 100px;
-    float: left;
-    animation-name: mars-rotate;
-    animation-duration: 10s;
+.sun {
+    width: 280px;
 }
 
-.tb {
-    color: white;
-    font-size: large;
+nav {
+    text-align: center;
+    background-color: #ffc900;
+    border-radius: 20px;
+    width: 300px;
+    height: 26px;
+}
+
+.link-a {
+    text-decoration: none;
+    background: linear-gradient(to left, blue,blue);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: fle;
+    justify-content: center;
 }
 
-table,th,td {
-    border: 2px solid white;
+.nav-div{
+    display: flex;
+    justify-content: center;
 }
-
-th {
-    color: white;
-}
-
-table {
-    position: relative;
-    left: 100px;
-    top: 40px;
-    width: 1200px;
-    height: 400px;
-    background-image: url("images/space.jpg");
-}
-
-td {
-    text-align: center;
-}
-
-@keyframes mars-rotate {
-    100%{transform: rotateZ(360deg);}
-}
-
-.img-sun {
-    width: 400px;
-    position: relative;
-    top: 50px;
-    left: 100px;
-    float: left;
-    animation-name: mars-rotate;
-    animation-duration: 10s;
-}
- 
-@keyframes revolveAroundObject {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  .revolving-image {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    left: 660px;
-    margin: 50px;
-    animation: revolveAroundObject 6s ease-out;
-    transform-origin: 50% 300px;
-  }
-
-.main-line {
-    color: white;
-    width: 100%;
-    text-decoration: wavy;
-    text-decoration-line: underline;
-}
-
-.holder {
-    /* Clip edges, as some of the lines don't terminate nicely. */
-    overflow: hidden;
-    position: relative;
-    height: 50px;
-  }
-  
-  .ellipse {
-    position: absolute;
-    background: radial-gradient(ellipse, transparent, transparent 7px, white 7px, white 10px, transparent 11px);
-    background-size: 36px 40px;
-    width: 100%;
-    height: 20px;
-  }
-  
-  .ellipse2 {
-    top: 20px;
-    left: 18px;
-    background-position: 0px -20px;
-  }
