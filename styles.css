@@ -17,6 +17,9 @@ html {
 
 .hero-sec {
     background-image: url("images/solar-hr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     align-items: center;
     width: 100%;
     height: 300px;
