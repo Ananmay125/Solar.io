@@ -32,7 +32,7 @@ html {
     text-align: center;
     font-size: 62px;
     background: linear-gradient(to left, blue,lightblue);
-    font-family:'Cascadia Mono', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:"Fantasy",'Cascadia Mono', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
